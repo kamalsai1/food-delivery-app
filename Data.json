@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "img": "./images/burger.jpg",
+      "menu": "Burger",
+      "cuisine": "American",
+      "price": 250,
+      "time": 5,
+      "rate": 4,
+      "trending": true
+    },
+    {
+      "id": 2,
+      "img": "./images/mexican.webp",
+      "menu": "tacos",
+      "cuisine": "Mexican",
+      "price": 250,
+      "rate": 4,
+      "time": 5
+    },
+    {
+      "id": 3,
+      "img": "./images/indian.jpeg",
+      "menu": "Veg Thaali",
+      "cuisine": "South indian",
+      "price": 250,
+      "rate": 4,
+      "time": 20
+    },
+    {
+      "id": 4,
+      "img": "./images/mexican.webp",
+      "menu": "Sandwich",
+      "cuisine": "Snack",
+      "price": 250,
+      "rate": 4,
+      "time": 23,
+      "trending": true
+    },
+    {
+      "id": 5,
+      "img": "./images/chineese.webp",
+      "menu": "Noodles",
+      "cuisine": "Chineese",
+      "price": 250,
+      "rate": 4,
+      "time": 25
+    },
+    {
+      "id": 6,
+      "img": "./images/Butterchicken.jpg",
+      "menu": "Butter chicken",
+      "cuisine": "North indian",
+      "price": 100,
+      "rate": 4,
+      "time": 15,
+      "trending": true
+    },
+    {
+      "id": 7,
+      "img": "./images/italian.webp",
+      "menu": "Paneer Buttter masala",
+      "cuisine": "Northindian",
+      "price": 250,
+      "rate": 4,
+      "time": 15
+    },
+    {
+      "id": 8,
+      "img": "./images/indian.jpeg",
+      "menu": "Dum Biryani",
+      "cuisine": "South indian",
+      "price": 300,
+      "rate": 4.7,
+      "time": 30
+    }
+  ],
+  "users": [
+    {
+      "name": "Burger",
+      "price": 250,
+      "qty": 5,
+      "id": 1
+    },
+    {
+      "name": "Sandwich",
+      "price": 250,
+      "qty": 3,
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+.cartitems{
+    display: flex;
+    gap:5rem;
+    color:aliceblue;
+    padding-bottom: 3rem; 
+}
+.cartMain{
+    color:white;
+    display: block;
+    margin:5rem;
+}
+.cartMain>div>p{
+    width:450px;
+    font-size: 25px;
+    background-color: rgb(183, 236, 220);
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.cartitems .box{
+    height:250px;
+    width:300px;
+    color:rgb(0, 0, 0);
+    color:aliceblue;
+    display: block;
+    text-align: center;
+    border: 3px solid rgb(144, 144, 144);
+}
+.cartitems .box .btn{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap:2rem
+}
+.cartitems .del button{
+    font-size: 25px;
+    color: red;
+}

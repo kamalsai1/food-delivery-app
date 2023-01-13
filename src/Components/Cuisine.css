@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+.Cuisine{
+    background-color: black;
+    color: aliceblue;
+    margin:0
+}
+.Cuisine > div{
+    display: flex;
+    position: relative;
+}
+.cuisine_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+}

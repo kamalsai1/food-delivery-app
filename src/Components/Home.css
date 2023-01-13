@@ -1,0 +1,42 @@
+.main{
+    background-color: black;
+}
+.home{
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
+.home .img img{
+    object-fit: cover;
+    width: 100%;
+    height: 91vh;
+    display: block;
+}
+.home .caption{
+    position: absolute;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    bottom:40%;
+    left:30%;
+    right:30%;
+    color:rgba(255, 255, 255, 0.941)
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    margin:3rem;
+}
+/* .items div{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.sortBy{
+    color:aliceblue;
+    display: flex;
+    gap:20px;
+    justify-content: right;
+    margin: 20px;
+}
+

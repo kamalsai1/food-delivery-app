@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 9rem;
+    justify-content: center;
+    font-style: italic;
+    color: aliceblue;
+}
+.container .image{
+    margin: 1rem;
+    height:300px;
+    width:300px;
+    display: block;
+    text-align: center;
+}
+.container .image .content{
+    position:absolute;
+    /* margin-top:40%; */
+    font-size: 40px;
+}
+.container .image img{
+    object-fit: cover;
+    height:300px;
+    width:300px;
+    opacity: 80%;
+    padding: 5px;
+}
+.container .image img:hover{
+    opacity: 100%;
+    padding: 0;
+    transition-delay:500ms;
+}
